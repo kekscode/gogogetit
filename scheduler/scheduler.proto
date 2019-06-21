@@ -1,0 +1,10 @@
+syntax = "proto3";
+package main;
+
+message Target {
+    string url = 1;
+}
+
+message Collection {
+    repeated Target targets = 2;
+}
